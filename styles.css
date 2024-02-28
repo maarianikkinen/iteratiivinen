@@ -15,6 +15,7 @@ body
 .kolmas
 {
     text-align: center;
+
 }
 
 .etsi
@@ -53,9 +54,9 @@ body
     border: 0px;
     font-size: 16px;
     cursor: pointer;
-    width: 200%;
-    padding-top: 13%;
-    padding-bottom: 13%;
+    width: 450px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     border-radius: 12px;
     text-align: left;
     padding-left: 15%;
@@ -65,7 +66,7 @@ body
   .dropdown1-content {
     display: none;
     position: absolute;
-    width: 200%;
+    width: 450px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: #007FFF;
@@ -93,8 +94,7 @@ body
 }
 .dropdown2 { 
     display: inline-block; 
-    position: relative; 
-    margin: auto;
+    position: relative;
   } 
 
   .Dropbtn2 {
@@ -102,9 +102,9 @@ body
     border: 0px;
     font-size: 16px;
     cursor: pointer;
-    width: 200%;
-    padding-top: 13%;
-    padding-bottom: 13%;
+    width: 450px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     border-radius: 12px;
     text-align: left;
     padding-left: 15%;
@@ -114,7 +114,7 @@ body
   .dropdown2-content {
     display: none;
     position: absolute;
-    width: 200%;
+    width: 450px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: #007FFF;
