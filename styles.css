@@ -1,4 +1,33 @@
 body 
 {background-color: #0000FF;}
 
+.ylin
+{
+    padding-top: 15%;
+    
+    text-align: center;
+}
 
+.toka
+{
+    text-align: center;
+}
+
+.kolmas
+{
+    text-align: center;
+}
+
+.etsi
+{
+    background-color: #007FFF;
+    border: none;
+    color:black;
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 
+}
