@@ -1,0 +1,58 @@
+body 
+{background-color: #0000FF;}
+
+.ylin
+{
+    padding-top: 15%;
+    text-align: center;
+}
+
+.toka
+{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.kolmas
+{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.etsi
+{
+    background-color: #007FFF;
+    border: none;
+    color:black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0,5%;
+    padding-bottom: 0,5%;
+    text-align: center;
+    display: inline-block;
+    font-size: 28px;
+    cursor: pointer;
+    margin: 
+}
+
+#mittari
+{
+    background-color: #86C2FF;
+    width: 50%; 
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;   
+  }
+
+
+Select {
+    background-color:#007FFF;
+    width: 470px;
+    height: 49px;
+    border-radius: 12px;
+    padding-left: 70px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
