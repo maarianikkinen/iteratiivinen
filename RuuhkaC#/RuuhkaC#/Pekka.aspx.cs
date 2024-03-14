@@ -27,14 +27,21 @@ namespace RuuhkaC_
 
         protected void btnSearch_Click(object sender, EventArgs e)
         {
-            // Handle search button click
-            // This method will be called when the "Etsi tiedot" button is clicked
-            // You can write your search logic here
-            // For demonstration, let's display a message with the selected city and measurement
-            string selectedCity = ddlCities.SelectedValue;
-            string selectedMeasurement = ddlMeasurement.SelectedValue;
-            string message = $"Searching data for {selectedMeasurement} in {selectedCity}";
-            Response.Write($"<script>alert('{message}');</script>");
+        Random rand = new Random();
+    int randomNumber = rand.Next(1, 1500);
+    mittari.InnerHtml = $"{randomNumber} Autoa tunnissa";
+    if (randomNumber <= 500)
+    {
+        mittari.Style["background-color"] = "green"; // Change to green if random number is <= 500
+    }
+    else if (randomNumber <= 1000)
+    {
+        mittari.Style["background-color"] = "yellow"; // Change to yellow if random number is <= 1000
+    }
+    else
+    {
+        mittari.Style["background-color"] = "red"; // Change to red if random number is > 1000
+    }
         }
 
         private void PopulateMeasurementDropdown(string city)

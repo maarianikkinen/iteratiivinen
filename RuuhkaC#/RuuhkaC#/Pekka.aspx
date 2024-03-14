@@ -29,8 +29,7 @@
             <asp:Button ID="btnSearch" runat="server" CssClass="etsi" Text="Etsi tiedot" OnClick="btnSearch_Click" />
         </div>
     </form>
-
-    <div id="mittari">
+<div id="mittari" runat="server">
     </div>
 </body>
 </html>
