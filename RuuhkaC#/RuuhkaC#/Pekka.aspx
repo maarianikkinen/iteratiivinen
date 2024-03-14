@@ -22,8 +22,7 @@
                 <option value="Tampere">Tampere </option>
                 <option value="Turku">Turku</option>
                 </select>
-         <%  switch (Kaupunki) {
-  case "Lahti" %>
+
         </div>
         
     </div>
@@ -45,10 +44,11 @@
     
     <div id="mittari">
     </div>
+    
+        
 
 
-
-
+    
 
 
 
