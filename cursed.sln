@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuuhkaC#", "RuuhkaC#\RuuhkaC#.csproj", "{863723AD-2B89-440D-BB57-0075D1044D42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cursed", "cursed\cursed.csproj", "{628BF3EE-3633-41E6-9508-C7666211368D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{863723AD-2B89-440D-BB57-0075D1044D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{863723AD-2B89-440D-BB57-0075D1044D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{863723AD-2B89-440D-BB57-0075D1044D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{863723AD-2B89-440D-BB57-0075D1044D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628BF3EE-3633-41E6-9508-C7666211368D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628BF3EE-3633-41E6-9508-C7666211368D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628BF3EE-3633-41E6-9508-C7666211368D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628BF3EE-3633-41E6-9508-C7666211368D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {72E4288A-017B-45F7-8735-E766490570D9}
+		SolutionGuid = {35FDA3DB-AA40-4070-AC1F-07D767198C5C}
 	EndGlobalSection
 EndGlobal
