@@ -10,48 +10,27 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="ylin">
+            <asp:DropDownList ID="ddlCities" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlCities_SelectedIndexChanged">
+                <asp:ListItem Text="Valitse kaupunki" Value=""></asp:ListItem>
+                <asp:ListItem Text="Lahti" Value="Lahti"></asp:ListItem>
+                <asp:ListItem Text="Tampere" Value="Tampere"></asp:ListItem>
+                <asp:ListItem Text="Turku" Value="Turku"></asp:ListItem>
+            </asp:DropDownList>
+        </div>
+        
+        <div class="toka">
+            <asp:DropDownList ID="ddlMeasurement" runat="server">
+                <asp:ListItem Text="Valitse mittauspiste" Value=""></asp:ListItem>
+            </asp:DropDownList>
+        </div>
+        
+        <div class="kolmas">
+            <asp:Button ID="btnSearch" runat="server" CssClass="etsi" Text="Etsi tiedot" OnClick="btnSearch_Click" />
         </div>
     </form>
-    <div class="ylin">
 
-      
-                <select name="Kaupunki" id="Kaupunki">
-                <option value ="Valitsekaupunki">Valitse kaupunki</option>    
-                <option value="Lahti">Lahti</option>
-                <option value="Tampere">Tampere </option>
-                <option value="Turku">Turku</option>
-                </select>
-
-        </div>
-        
-    </div>
-    <div class ="toka">
-        <select name="Mittaus" id="Mittaus">
-            <option value ="Valitsemittauspiste"> Mittauspiste</option>    
-            <option value="Kärpäsenmäki">Kärpäsenmäki</option>
-            <option value="Lotila">Lotila </option>
-
-            </select>
-        
-        </div><label for ="Dropbtn2" id="Dropbtn2"></label>
-        
-    </div>
-    <div class ="kolmas">
-        <button class = etsi> Etsi tiedot</button>
-    </div>
-
-    
     <div id="mittari">
     </div>
-    
-        
-
-
-    
-
-
-
 </body>
 </html>
-
