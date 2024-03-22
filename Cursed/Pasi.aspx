@@ -58,7 +58,6 @@
     </form>
 
     <div id="mittari" runat="server">
-        <!-- Result will be displayed here -->
     </div>
 </body>
 </html>
