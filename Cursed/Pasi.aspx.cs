@@ -19,15 +19,15 @@ namespace Cursed
             mittari.InnerHtml = $"{randomNumber} Autoa tunnissa";
             if (randomNumber <= 500)
     {
-        mittari.Style["background-color"] = "green"; // Change to green if random number is <= 500
+        mittari.Style["background-color"] = "#00C108"; // Change to green if random number is <= 500
     }
     else if (randomNumber <= 1000)
     {
-        mittari.Style["background-color"] = "yellow"; // Change to yellow if random number is <= 1000
+        mittari.Style["background-color"] = "#FEF606"; // Change to yellow if random number is <= 1000
     }
     else
     {
-        mittari.Style["background-color"] = "red"; // Change to red if random number is > 1000
+        mittari.Style["background-color"] = "#FD0B0B"; // Change to red if random number is > 1000
     } 
         }
     }
