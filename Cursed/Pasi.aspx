@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Pasi.aspx.cs" Inherits="Cursed.Pasi" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Pasi.aspx.cs" Inherits="Cursed.Pasi" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,7 +42,10 @@
                 <option value='Artukainen' <% if(Request.Form["Mittaus"] == "Artukainen") { %> selected <% } %>>Artukainen</option>
                 <option value='Ihala' <% if(Request.Form["Mittaus"] == "Ihala") { %> selected <% } %>>Ihala</option>
                 <%          break;
-    
+                        default:
+                %>
+                <option value='Valitsemittauspiste'>Valitse mittauspiste</option>
+                <%          break;
                     }
                 }
                 %>
