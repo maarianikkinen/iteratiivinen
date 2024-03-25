@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Pasi.aspx.cs" Inherits="Cursed.Pasi" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Ruuhka.aspx.cs" Inherits="Cursed.Pasi" %>
 <!DOCTYPE html>
 <html>
 <head>

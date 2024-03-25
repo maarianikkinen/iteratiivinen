@@ -67,16 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Pasi.aspx" />
+    <Content Include="Ruuhka.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pasi.aspx.cs">
-      <DependentUpon>Pasi.aspx</DependentUpon>
+    <Compile Include="Ruuhka.aspx.cs">
+      <DependentUpon>Ruuhka.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pasi.aspx.designer.cs">
-      <DependentUpon>Pasi.aspx</DependentUpon>
+    <Compile Include="Ruuhka.aspx.designer.cs">
+      <DependentUpon>Ruuhka.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
